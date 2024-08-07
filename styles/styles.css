@@ -308,24 +308,31 @@ section {
   transition: all 0.4s ease-in-out;
   width: 60%;
 }
-.about-stats .progress-bars .progress-bar .progress-con .progress .html {
-  width: 80%;
+.about-stats .progress-bars .progress-bar .progress-con .progress .python {
+  width: 90%;
 }
 .about-stats .progress-bars .progress-bar .progress-con .progress .css {
-  width: 95%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .js {
-  width: 75%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .react {
-  width: 60%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .node {
-  width: 87%;
-}
-.about-stats .progress-bars .progress-bar .progress-con .progress .python {
   width: 70%;
 }
+.about-stats .progress-bars .progress-bar .progress-con .progress .csharp {
+  width: 85%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .cplusplus {
+  width: 85%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .php {
+  width: 80%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .java {
+  width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .sql {
+  width: 90%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .html {
+  width: 95%;
+}
+
 
 .stat-title {
   text-transform: uppercase;
@@ -393,6 +400,49 @@ section {
   font-size: 1.2rem;
 }
 .timeline .timeline-item p {
+  color: var(--color-grey-2);
+}
+
+/*frameworks*/
+.framework{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  padding-bottom: 3rem;
+}
+.framework .framework-item {
+  position: relative;
+  padding-left: 3rem;
+  border-left: 1px solid var(--color-grey-5);
+}
+.framework .framework-item .tl-icon {
+  position: absolute;
+  left: -27px;
+  top: 0;
+  background-color: var(--color-secondary);
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.framework .framework-item .tl-icon i {
+  font-size: 1.3rem;
+}
+
+.framework .framework-item h5 {
+  padding: 1rem 0;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.framework .framework-item h5 span {
+  color: var(--color-grey-2);
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.framework .framework-item p {
   color: var(--color-grey-2);
 }
 
